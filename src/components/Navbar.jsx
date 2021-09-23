@@ -43,6 +43,7 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
+  font-size: 40px;
   font-weight: bold;
 `;
 
