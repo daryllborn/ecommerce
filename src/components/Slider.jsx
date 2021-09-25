@@ -59,6 +59,10 @@ const InfoContainer = styled.div`
 const Image = styled.img`
   height: 100%;
   float: right;
+  transition: all 1.5s ease;
+  &:hover {
+    transform: scale(1.05);    
+  }
 `;
 
 const Title = styled.h1`
