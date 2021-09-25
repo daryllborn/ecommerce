@@ -2,7 +2,7 @@ import { Send } from "@material-ui/icons";
 import styled from "styled-components";
 
 const Container = styled.div`
-    height: 60vh;
+    height: 30vh;
     background-color: #efefef;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ const Button = styled.button`
     cursor: pointer;
 `;
 
-const Announcements = () => {
+const Newsletter = () => {
     return (
         <Container>
             <Title>Newsletter</Title>
@@ -55,4 +55,4 @@ const Announcements = () => {
     )
 }
 
-export default Announcements
+export default Newsletter
