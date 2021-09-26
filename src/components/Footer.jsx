@@ -80,8 +80,20 @@ import {
     align-items: center;
   `;
   
-  const Payment = styled.img`
+  const Ideal = styled.img`
       width: 10%;
+  `;
+
+  const Payment = styled.img`
+      width: 50%;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  `;
+
+  const Office = styled.img`
+        width: 20%;
+        //height: 250px;
+        object-fit: cover;
   `;
   
   const Footer = () => {
@@ -135,8 +147,10 @@ import {
           <ContactItem>
             <MailOutline style={{marginRight:"10px"}} /> contact@born.dev
           </ContactItem>
-          <Payment src="assets/ideal-logo-1024.png" />
+          <Ideal src="assets/ideal-logo-1024.png" />
+          <Payment src="assets/payment-methods.png" />
         </Right>
+        <Office src="assets/office.png" />
       </Container>
     );
   };

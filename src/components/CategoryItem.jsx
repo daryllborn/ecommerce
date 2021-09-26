@@ -38,7 +38,9 @@ const Image = styled.img`
   transition: all 0.5s ease-in-out;
 
   &:hover {
+    //border: 1px solid lightgray;
     transform: scale(1.05);
+
   }
   &:hover ${Button}{
     color: white;
