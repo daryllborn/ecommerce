@@ -16,8 +16,8 @@ const Container = styled.div`
 const Home = () => {
     return (
         <Container>
-            <Announcements />
             <Navbar />
+            <Announcements />
             <Slider />
             <Categories />
             <Products />

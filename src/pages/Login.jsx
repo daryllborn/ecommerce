@@ -64,8 +64,8 @@ const Login = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link>CREATE A NEW ACCOUNT</Link>
+          <Link>Forgot your password?</Link>
+          <Link>Register a new account</Link>
         </Form>
       </Wrapper>
     </Container>
