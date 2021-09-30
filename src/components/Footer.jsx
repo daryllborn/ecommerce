@@ -91,8 +91,8 @@ import {
   `;
 
   const Office = styled.img`
+        flex: 1;
         width: 20%;
-        //height: 250px;
         object-fit: cover;
   `;
   
