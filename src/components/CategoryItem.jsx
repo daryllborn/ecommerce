@@ -13,9 +13,9 @@ const Info = styled.div`
 `;
 
 const Button = styled.button`
-    border:none;
+    border: solid 1px;
     padding: 10px;
-    background-color: black;
+    background-color: transparent;
     color:gray;
     cursor: pointer;
     font-weight: 600;
