@@ -28,50 +28,53 @@ export const sliderItems = [
       id: 1,
       img: "assets/sale-tuxedo.png",
       title: "Sale",
+      cat:"sale",
     },
     {
       id: 2,
       img: "assets/casual-man.png",
       title: "Casual",
+      cat:"casual",
     },
     {
       id: 3,
       img: "assets/business-man.png",
       title: "Business",
+      cat:"business",
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"assets/bomber.png",
+      img:"/assets/bomber.png",
     },
     {
       id:2,
-      img:"assets/coltrui.png",
+      img:"/assets/coltrui.png",
     },
     {
       id:3,
-      img:"assets/witte-broek.png",
+      img:"/assets/witte-broek.png",
     },
     {
       id:4,
-      img:"assets/bruine-schoen.png",
+      img:"/assets/bruine-schoen.png",
     },
     {
       id:5,
-      img:"assets/jacket.png",
+      img:"/assets/jacket.png",
     },
     {
       id:6,
-      img:"assets/overhemd.png",
+      img:"/assets/overhemd.png",
     },
     {
       id:7,
-      img:"assets/trousers.png",
+      img:"/assets/trousers.png",
     },
     {
       id:8,
-      img:"assets/schoen.png",
+      img:"/assets/schoen.png",
     },
   ]

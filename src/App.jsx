@@ -14,8 +14,8 @@ import {
 
 
 const App = () => {
+  const user = false;
   return (
-    const user = true  
     <Router>
       <Switch>
         <Route exact path="/">
