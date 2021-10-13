@@ -8,23 +8,24 @@ import Cart from "./pages/Cart";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 
 
 const App = () => {
   return (
-  
+    const user = true  
     <Router>
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
         <Route path="/register">
-          <Register />
+          {user ? <Redirect to="/" /> : <Register />}
         </Route>
         <Route path="/login">
-          <Login />
+          {user ? <Redirect to="/" /> : <Login />}
         </Route>
         <Route path="/products/:category">
           <ProductList />
