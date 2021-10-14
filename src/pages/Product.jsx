@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import { mobile } from "../responsive";
+import { useEffect } from "react"
 
 const Container = styled.div``;
 
@@ -115,6 +116,11 @@ const Button = styled.button`
 `;
 
 const Product = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <Container>
       <Navbar />
